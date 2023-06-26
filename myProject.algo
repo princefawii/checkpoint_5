@@ -1,0 +1,30 @@
+Question 1:
+
+//checkpoint:  write an algorithm that fulfills the following description
+//Given two sets of elements, find the sum of all distinct elements from the set. In other words, 
+//find the sum of all elements which are present in either of the given set.
+
+// In this type of program, the first thing is to:identify and define the problem above.
+//Identifying the constraints that should be taken into consideration while solving the problem.
+// The Problem here is to compare the elements of two sets of array and find the sum of distinct(non-repeating)
+// elements in the two arrays.
+
+//STEP 1: Declare the two arrays: Arr1[]:= {3, 1, 7, 9}, Arr2[]:= {2, 4, 1, 9, 3}
+// Declare i, j, n as interger which are iterations and length of array respectively.
+//STEP 2: Declare another variable called sum and initialize it by 0: var sum:= 0. This is the variable that will
+//contain the final answer by increamenting i.e sum := sum + arr[i]
+//where i := index and arr[i] := element at a particular index
+//STEP3: Transverse the input arrays
+//FOR i FROM 0 TO n DO
+//STEP 4: While traversing the array pick an element and check all elements to its right by running an inner loop.
+// If we get any element with the same value as that element then stop the inner loop
+//If any element exists to the right of that element that has the same value then it is ok else add the value 
+//of that element to the sum
+
+Question 2:
+
+//STEP 1: Write a procedure call dot_product and let it takes parameters ps and dot
+//STEP 2: arrays v1 and v2 should be declared. v1[] := {2,5,4,3,7,6,8},  v2[] := {7,9,3,1,5,6,89},
+// let ps, dot := INTEGER
+//Then, we loop over the result by using n as iterator
+//we set the breakpoint to be orthogonal
